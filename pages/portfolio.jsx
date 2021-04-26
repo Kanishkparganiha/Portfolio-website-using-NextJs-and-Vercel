@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Head from 'next/head'
-import ParticlesBg from "particles-bg";
+//import ParticlesBg from "particles-bg";
 import OfferingCardTest from '../components/OfferingCardTest';
 
 
@@ -18,7 +18,7 @@ function Portfolio() {
 
 			<Navbar />
 
-			<ParticlesBg type="cobweb" bg={true}/>
+		
 
 			<section className="hero">
 

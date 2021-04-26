@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Head from 'next/head'
-import ParticlesBg from "particles-bg";
+//import ParticlesBg from "particles-bg";
 
 function Work() {
 	return (
@@ -11,8 +11,8 @@ function Work() {
 			</Head>
 
 			<Navbar />
-			
-<ParticlesBg type="cobweb" bg={true}/>
+
+
 			<section className="hero">
 			  <div  className="container">
 			    <div className="text-wrapper w-full">

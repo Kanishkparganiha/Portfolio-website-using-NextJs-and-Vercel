@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import Skill from "../components/Skill";
 import { motion } from 'framer-motion';
-import Test from "./test";
+
 import OfferingCardTest from "../components/OfferingCardTest";
 
 

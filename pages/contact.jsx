@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Head from 'next/head'
-import ParticlesBg from "particles-bg";
 
 
 function Contact() {
@@ -12,7 +11,7 @@ function Contact() {
 			</Head>
 <div>
 			<Navbar />
-<ParticlesBg bg={true}/>
+
 			<section className="hero">
 			  <div className="container">
 			    <div className="contact">
