@@ -14,11 +14,11 @@ const useStyles = makeStyles((theme) =>
       justifyContent: 'space-around',
       overflow: 'hidden',
       backgroundColor: theme.palette.background.paper,
-
+borderRadius: "30px",
       margin: 'auto',
       minWidth:200,
-          width:300,
-          height:205
+          width:220,
+          height:220
     },
 
     gridContainer:{
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) =>
 
         height: "150 px",
         width:"300 px",
-        padding:"33.35%"
+        padding:"32.8%"
          // 16:9
       }
   }),
@@ -39,24 +39,19 @@ export default function Skill() {
 
   return (
     <div className={classes.gridContainer}>
-    <Grid container spacing={2}  justify="space-evenly">
+    <Grid container spacing={1}  justify="space-evenly">
 
         {tileData.map((tile) => (
 
-          <Grid item sm={3} ms={3}   spacing={2}>
+          <Grid item sm={1.1} ms={1}   spacing={0.3}>
 
           <motion.p   whileHover={{
                 position: 'relative',
                 zIndex: 1,
-                background: 'white',
+
                 scale: [1, 1.4, 1.2],
                 rotate: [0, 10, -10, 0],
-                filter: [
-                  'hue-rotate(0) contrast(100%)',
-                  'hue-rotate(360deg) contrast(200%)',
-                  'hue-rotate(45deg) contrast(300%)',
-                  'hue-rotate(0) contrast(100%)'
-                ],
+
                 transition: {
                   duration: .5
                 }

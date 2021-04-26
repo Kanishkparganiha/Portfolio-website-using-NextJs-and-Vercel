@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[13],{"7ykl":function(n,_){},c06g:function(n,_,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/test",function(){return w("7ykl")}])}},[["c06g",0]]]);

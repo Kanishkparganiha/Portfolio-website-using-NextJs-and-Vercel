@@ -8,18 +8,19 @@ import OfferingCardData from './OfferingCardData';
 const useStyles=makeStyles({
   gridContainer:{
     paddingTop:"100px",
-    paddingLeft:"50px",
-    paddingRight:"50px",
-    paddingBottom:"50px"
+    paddingLeft:"100px",
+    paddingRight:"100px",
+    paddingBottom:"100px"
 
   },
 
 
   root: {
 
-    width:400,
-    height:700
 
+    width:500,
+    height:600,
+borderRadius: "30px"
   },
   media: {
 
@@ -43,7 +44,7 @@ const OfferingCardTest = () =>  {
     <div className={classes.gridContainer} >
     <Grid container spacing={3}  justify="space-eve">
   {OfferingCardData.map((Data) => (
-    <Grid item sm={3} ms={4}   spacing={2}>
+    <Grid item sm={3.5} ms={4}   spacing={2}>
 
 
     <Card className={classes.root} >

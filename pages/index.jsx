@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Head from 'next/head';
-import OfferingCard from "../components/OfferingCard";
+
 import Skill from "../components/Skill";
 import { motion } from 'framer-motion';
 import Test from "./test";
@@ -31,7 +31,7 @@ function Home() {
     scale: 1,
     opacity: 1,
     transition: {
-      delay: .4
+      delay: 1
     }
   },
 }}>
@@ -56,9 +56,22 @@ function Home() {
             <h1 className="title">Skills</h1>
 
               </div>
-
+              <motion.div initial="hidden" animate="visible" variants={{
+      hidden: {
+        scale: .8,
+        opacity: 0
+      },
+      visible: {
+        scale: 1,
+        opacity: 1,
+        transition: {
+          delay: 1
+        }
+      },
+    }}>
 
               <Skill/>
+              </motion.div>
               <div className="skill">
 
                 <h1 className="title">Projects</h1>

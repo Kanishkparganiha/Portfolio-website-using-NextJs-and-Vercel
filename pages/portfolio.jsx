@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Head from 'next/head'
 import ParticlesBg from "particles-bg";
+import OfferingCardTest from '../components/OfferingCardTest';
 
 
 
@@ -28,26 +29,14 @@ function Portfolio() {
 			      <h1 className="title">Portfolio</h1>
 
 			      <p className="description">
-			      	Incididunt in cillum magna occaecat nisi qui in.
+			      	Here are some of my Projects
 			      </p>
 
-			      <div className="portfolio-wrapper">
-			      	<div className="portfolio-item">
 
-
-			      		<h4 className="portfolio-name">Chat App Exploration</h4>
-			      		<div className="portfolio-category">Mobile Dev</div>
-			      	</div>
-			      	<div className="portfolio-item">
-			      		<img src="/kajian.jpg" className="portfolio-image" />
-
-			      		<h4 className="portfolio-name">kajian App</h4>
-			      		<div className="portfolio-category">Mobile Dev</div>
-			      	</div>
-			      </div>
 		      </div>
-	      </div>
 
+	      </div>
+<OfferingCardTest/>
 			</section>
 
 		</>
